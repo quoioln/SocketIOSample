@@ -1,0 +1,31 @@
+{
+  "name": "socket.iosample",
+  "version": "1.0.0",
+  "description": "Socket.io sample project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quoioln/SocketIOSample.git"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "Quoi Vo",
+  "bugs": {
+    "url": "https://github.com/quoioln/SocketIOSample/issues"
+  },
+  "homepage": "https://github.com/quoioln/SocketIOSample#readme",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/main.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "^2.0.1"
+  }
+}
